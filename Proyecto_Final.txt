@@ -1,0 +1,11 @@
+1. Transición Energética justa
+
+	* Misión 1: Crear una pagina de información sobre una fuente de energía limpia
+	* Misión 2: Visualizar el conjunto de datos
+	* Misión 3: Desarrollar un Dashboard para visualización de datos
+
+2. Red Comunitaria de Emprendimiento
+
+	* Misión 1: Crear una pagina de información sobre emprendimiento
+	* Misión 2: Proveer conceptos y enlaces de apoyo
+	* Misión 3: Desarrollar un Dashboard informativo sobre impacto del emprendimiento

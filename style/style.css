@@ -1,0 +1,72 @@
+#menu, ul, li, a {
+    display: flex;
+    padding: 20px;
+   font-size: 20px;
+   color: white;
+   background-color: transparent;
+}
+
+.navbar, .navbar.bg-body-tertiary{ 
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border: none;
+}
+
+.intro {
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.intro, p{
+    font-size: 20px;
+}
+
+#menu:hover{
+    transition: transform 0.3s;
+    transform: scale(1.05);
+        
+}
+
+#logo {
+    font-family: 'Lucida Calligraphy';
+    font-size: 40px;
+    color: blueviolet;
+}
+
+.carousel-inner {
+    transition: transform 0.3s, box-shadow 0.3s; /* Transición suave para el efecto de zoom y sombra */
+    overflow: hidden; /* Asegura que el contenido no sobresalga */
+}
+
+.carousel-inner:hover { 
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el cursor */
+    box-shadow: 0 18px 52px rgba(0, 0, 0, 0.7); /* Aumenta la sombra al pasar el cursor */
+}
+
+/* Estilos para las imágenes */
+.carousel-inner img {
+    height: 600px; /* Ajusta esta altura según tus necesidades */
+    object-fit: cover; /* Esto recorta la imagen si es necesario para mantener el aspecto */
+    border: 5px solid #000; /* Grosor y color del borde */
+    border-radius: 55px; /* Ajusta este valor para más o menos redondez */
+    transition: transform 0.3s; /* Transición suave para el efecto de zoom */
+}
+
+.carousel-inner img:hover, 
+.carousel-inner img:focus { 
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el cursor */
+    box-shadow: 0 18px 52px rgba(0, 0, 0, 0.7); /* Aumenta la sombra al pasar el cursor */
+}
+
+main{
+    background-image: url(../img/fondo.jpg);
+    background-size: 100x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
