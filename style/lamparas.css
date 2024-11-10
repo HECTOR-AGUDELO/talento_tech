@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+}
+
+.container_car{
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap; /* Permite que las tarjetas bajen a la siguiente línea si no caben */
+    gap: 20px; /* Espacio entre tarjetas */
+    justify-content: center; /* Centra las tarjetas dentro del contenedor */
+    padding: 20px;
+    background-color: blue;
+}
+
+.card{
+    display: flex;
+    border: 1px solid black;
+    background-color: chartreuse;
+    width: 10em;
+    height: 20em;
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+    width: 10em;
+    height: 12em;
+    padding-bottom: 20px;
+}
+
+/* hr {
+    width: 100%; /* Asegura que la línea ocupe todo el ancho del contenedor */
+    height: 1px; /* Ajusta la altura a 1px para que sea una línea delgada */
+    border: none; /* Elimina cualquier borde predeterminado */
+    background-color: #333; /* Color de la línea */
+    margin: 20px 0; /* Espacio arriba y abajo de la línea */
+  }
+   */
